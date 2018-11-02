@@ -1,6 +1,7 @@
-#Instrument streaming
+# Instrument streaming
 
-This repo contains the instrument streaming model presented in the paper Yun-Ning Hung and Yi-Hsuan Yang, "MULTITASK LEARNING FOR FRAME-LEVEL INSTRUMENT RECOGNITION"
+This repo contains the instrument streaming model presented in the paper:
+Yun-Ning Hung and Yi-Hsuan Yang, "MULTITASK LEARNING FOR FRAME-LEVEL INSTRUMENT RECOGNITION"
 
 - **parse_data.py** contains the function to parse the Musescore dataset
 - **dataset statistic.xlsx** contains the statistic of Musescore dataset 
