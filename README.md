@@ -12,7 +12,7 @@ Yun-Ning Hung and Yi-Hsuan Yang, "MULTITASK LEARNING FOR FRAME-LEVEL INSTRUMENT 
 ```
 python prediction.py ocean.mp3
 ```
-Instrument, pitch and pianorolls frame-level prediction result will be stored in the **output_data** folder 
+Instrument, pitch and pianorolls prediction result will be stored in the **output_data** folder 
 
 ## Convert pianorolls to MIDI 
 3. Run the 'output_midi.py' with the name of the pianorolls as the first arg
@@ -21,5 +21,6 @@ python output_midi.py ocean.npy
 ```
 
 Reference
+
 If you use the pianorolls to MIDI converter, please cite this paper:
 * Hao-Wen Dong, Wen-Yi Hsiao, and Yi-Hsuan Yang, "Pypianoroll: Open Source Python Package for Handling Multitrack Pianoroll," in ISMIR Late-Breaking Demos Session, 2018.
