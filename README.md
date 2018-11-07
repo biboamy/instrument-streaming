@@ -10,14 +10,14 @@ Yun-Ning Hung and Yi-Hsuan Yang, "MULTITASK LEARNING FOR FRAME-LEVEL INSTRUMENT 
 1. Put MP3/WAV files in the "mp3" folder
 2. Run the 'prediction.py' with the name of the song as the first arg
 ```
-python prediction.py ocean.mp3
+python3 prediction.py ocean.mp3
 ```
 Instrument, pitch and pianorolls prediction result will be stored in the **output_data** folder 
 
 ## Convert pianorolls to MIDI 
 3. Run the 'output_midi.py' with the name of the pianorolls as the first arg
 ```
-python output_midi.py ocean.npy
+python3 output_midi.py ocean.npy
 ```
 
 Reference
