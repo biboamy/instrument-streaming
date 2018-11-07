@@ -32,8 +32,8 @@ class Net(nn.Module):
         pred = self.decode(fea_vec,i,s,c)
         pred = F.max_pool2d(pred,(1,2),(1,2)).squeeze(1)
 
-        inst = torch.sum(pred,2)/pred.size()[2]
-        pitch = torch.sum(pred,1)/pred.size()[1]
+        inst = torch.sum(pred,2)*0.01#torch.sum(pred,2)/pred.size()[2]
+        pitch = torch.sum(pred,1)*0.1#torch.sum(pred,1)/pred.size()[1]
         inst_scale = F.sigmoid(inst.view(inst.size()[0],inst.size()[1],1,inst.size()[2]))
 
         predict = [inst, pitch, pred*inst_scale]
