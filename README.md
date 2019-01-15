@@ -3,6 +3,10 @@
 This repo contains the instrument streaming model presented in the paper:
 Yun-Ning Hung and Yi-Hsuan Yang, "MULTITASK LEARNING FOR FRAME-LEVEL INSTRUMENT RECOGNITION"
 
+### Demo
+The demo files are in the 'output_data' directory
+
+## Musescore dataset
 - **parse_data.py** contains the function to parse the Musescore dataset
 - **dataset statistic.xlsx** contains the statistic of Musescore dataset 
 
@@ -20,7 +24,7 @@ Instrument, pitch and pianorolls prediction result will be stored in the **outpu
 python3 output_midi.py ocean.npy
 ```
 
-Reference
+## Reference
 
 If you use the pianorolls to MIDI converter, please cite this paper:
 * Hao-Wen Dong, Wen-Yi Hsiao, and Yi-Hsuan Yang, "Pypianoroll: Open Source Python Package for Handling Multitrack Pianoroll," in ISMIR Late-Breaking Demos Session, 2018.
